@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(1, 73, 38);
+    color: rgb(233, 160, 164);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {color: wheat;
+    font-family: cursive;
+    font-size: 22px;
+}
+h2 {
+    color: rgb(236, 121, 140);
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    color: yellow;
+}
+div {
+    background: grey;
+    width: 300px;
+}
+span{
+    color: rgb(152, 241, 132);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
