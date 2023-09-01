@@ -13,12 +13,57 @@ h2 {
     font-size: 21px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p {
-    color: yellow;
+.intro {
+    font-size: 30px;
+    color: rgb(209, 210, 210);
 }
-div {
-    background: grey;
-    width: 300px;
+.milieu {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: beige;
+}
+.pre-conclu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 31px;
+    color: crimson;
+}
+.conclu {
+    font-family: fantasy;
+    font-size: 38px;
+    color: azure;
+}
+.real-conclu {
+    font-family: monospace;
+    font-size: 13px;
+    color: burlywood;
+}
+.highlight {
+    background: rgb(223, 155, 36);
+}
+.accent-color {
+    color: coral;
+}
+.top-section {
+    background: rgb(228, 121, 121);
+}
+.middle-section {
+    background: orchid;
+}
+#bottom-section {
+    background: rgb(127, 84, 84);
+}
+.bottom-again {
+    background: rgb(252, 3, 24);
+}
+.section-principale {
+    background: rgb(75, 32, 227);
+}
+.avant-fin {
+    background: orangered;
+}
+.finalement {
+    background: rebeccapurple;
 }
 span{
     color: rgb(152, 241, 132);
