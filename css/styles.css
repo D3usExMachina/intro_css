@@ -1,73 +1,32 @@
 body {
-    background-color: rgb(1, 73, 38);
-    color: rgb(233, 160, 164);
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-h1 {color: wheat;
-    font-family: cursive;
-    font-size: 22px;
-}
-h2 {
-    color: rgb(236, 121, 140);
+    background-color: #a7dbe3;
+    color: whitesmoke;
     font-size: 21px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.intro {
-    font-size: 30px;
-    color: rgb(209, 210, 210);
+h1 {
+    font-size: 70px;
+    color: #3747b3
 }
-.milieu {
-    font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    color: beige;
+p {
+    color: #2f4c5c;
 }
-.pre-conclu {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 31px;
-    color: crimson;
-}
-.conclu {
-    font-family: fantasy;
-    font-size: 38px;
-    color: azure;
-}
-.real-conclu {
-    font-family: monospace;
-    font-size: 13px;
-    color: burlywood;
-}
-.highlight {
-    background: rgb(223, 155, 36);
-}
-.accent-color {
-    color: coral;
-}
-.top-section {
-    background: rgb(228, 121, 121);
-}
-.middle-section {
-    background: orchid;
-}
-#bottom-section {
-    background: rgb(127, 84, 84);
-}
-.bottom-again {
-    background: rgb(252, 3, 24);
-}
-.section-principale {
-    background: rgb(75, 32, 227);
-}
-.avant-fin {
-    background: orangered;
-}
-.finalement {
-    background: rebeccapurple;
-}
-span{
-    color: rgb(152, 241, 132);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    font-weight: bold;
+/* ceci est mon commentaire sur le CSS Box Model */
+/*  Margin;
+    Border;
+    Paddin;:
+*/
+.box {
+    background: pink;
+    width: 400px;
+
+    margin: 100px;
+    border: 10px groove rgb(52, 91, 249);
+    padding: 50px 100px; 
+    /* top right bottom left ou top & bottom right & left */
+    /* 400px width + 100px margin + 50x padding + 100px + 100px padding + 10px + 10px border = 770px */
+    /*  Margin; empty space ground my element
+        Border; a border / stroke / ground my element
+        Padding; empty space WITH background around my element
+        All of these ADD on top of the width and height
+    */
 }
